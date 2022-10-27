@@ -3,7 +3,7 @@ import Gate from "../images/gate.jpg";
 import Thai from "../images/thai.jpg";
 import Malbork from "../images/malbork.jpg";
 
-export default [
+const travelLogs = [
   {
     title: "Mount Fuji",
     location: "Japan",
@@ -58,4 +58,4 @@ export default [
   },
 ];
 
-//https://goo.gl/maps/zQPvdf6txb71KsLe8
+export default travelLogs;

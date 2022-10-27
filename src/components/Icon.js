@@ -1,16 +1,14 @@
 import React from "react";
-import Icon from "./Icon";
+import icons from "../images/icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 /* import { faEarthAmericas } from "@fortawesome/free-solid-svg-icons";
 import { faEarthAfrica } from "@fortawesome/free-solid-svg-icons";
 import { faEarthAsia } from "@fortawesome/free-solid-svg-icons";
 import { faEarthOceania } from "@fortawesome/free-solid-svg-icons";
  */
 
-export default function Header() {
-  return (
-    <div className="header--container">
-      <Icon />
-      <h3>my travel journal</h3>
-    </div>
-  );
+export default function Icon() {
+  return <FontAwesomeIcon className="header--icon" icon={icons[0]} />;
 }
+
+//<FontAwesomeIcon className="header--icon" icon={icons[0]} />
