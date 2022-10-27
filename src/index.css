@@ -15,6 +15,18 @@ body {
     sans-serif;
 }
 
+a {
+  text-decoration: none;
+  font-size: 18px;
+  text-decoration: underline var(--grey);
+  color: var(--grey);
+}
+
+a:hover {
+  color: var(--frame);
+  text-decoration: underline var(--frame);
+}
+
 .grey {
   color: var(--grey);
 }
